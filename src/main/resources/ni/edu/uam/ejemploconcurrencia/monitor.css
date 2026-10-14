@@ -1,0 +1,40 @@
+.root { -fx-background-color: #f1f3f4; -fx-font-family: "Segoe UI"; -fx-font-size: 13px; }
+
+.header { -fx-background-color: white; -fx-padding: 14 20 14 20;
+          -fx-border-color: #dadce0; -fx-border-width: 0 0 1 0; }
+.title { -fx-font-size: 22px; -fx-text-fill: #202124; }
+
+.chip, .chip-primary, .chip-danger {
+    -fx-background-radius: 18; -fx-border-radius: 18; -fx-padding: 7 16 7 16;
+    -fx-cursor: hand; -fx-font-size: 13px; }
+.chip { -fx-background-color: white; -fx-border-color: #dadce0; -fx-text-fill: #1a73e8; }
+.chip:hover { -fx-background-color: #f1f6fe; }
+.chip-primary { -fx-background-color: #1a73e8; -fx-text-fill: white; }
+.chip-primary:hover { -fx-background-color: #185abc; }
+.chip-danger { -fx-background-color: white; -fx-border-color: #dadce0; -fx-text-fill: #d93025; }
+.chip-danger:hover { -fx-background-color: #fce8e6; }
+
+.downloads { -fx-background-color: transparent; -fx-padding: 12 0 0 0; }
+.downloads .list-cell { -fx-background-color: transparent; -fx-padding: 0 20 10 20; }
+.downloads .list-cell:filled:selected .card { -fx-border-color: #1a73e8; }
+
+.card { -fx-background-color: white; -fx-background-radius: 10; -fx-border-radius: 10;
+        -fx-border-color: #dadce0; }
+.file-icon { -fx-background-color: #e8f0fe; -fx-background-radius: 8; -fx-min-width: 46; -fx-min-height: 46;
+             -fx-alignment: center; }
+.file-icon-text { -fx-font-size: 11px; -fx-font-weight: bold; -fx-text-fill: #1a73e8; }
+.file-name { -fx-font-size: 14px; -fx-text-fill: #202124; }
+.file-detail { -fx-font-size: 12px; -fx-text-fill: #5f6368; }
+.file-detail.done { -fx-text-fill: #188038; }
+.file-detail.cancelled { -fx-text-fill: #d93025; }
+
+.progress-bar > .track { -fx-background-color: #e8eaed; -fx-background-radius: 3; -fx-background-insets: 0; }
+.progress-bar > .bar { -fx-background-color: #1a73e8; -fx-background-radius: 3; -fx-background-insets: 0;
+                       -fx-padding: 3; }
+
+.link { -fx-background-color: transparent; -fx-text-fill: #1a73e8; -fx-cursor: hand; -fx-padding: 4 8 4 8; }
+.link:hover { -fx-background-color: #f1f6fe; -fx-background-radius: 4; }
+
+.footer { -fx-background-color: white; -fx-padding: 8 20 8 20;
+          -fx-border-color: #dadce0; -fx-border-width: 1 0 0 0; }
+.footer .label { -fx-text-fill: #5f6368; }
